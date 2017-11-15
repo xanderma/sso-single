@@ -1,6 +1,5 @@
-package cn.supermartin.martin.ssosingle;
+package cn.supermartin.martin.ssosingle.config;
 
-import cn.supermartin.martin.ssosingle.web.SessionInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;

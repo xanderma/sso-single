@@ -1,4 +1,4 @@
-package cn.supermartin.martin.ssosingle.web;
+package cn.supermartin.martin.ssosingle.config;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
