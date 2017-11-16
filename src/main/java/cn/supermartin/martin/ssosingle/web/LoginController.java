@@ -37,9 +37,17 @@ public class LoginController {
 
     @RequestMapping("/doLogin")
     public void login(String username, String userpwd, HttpServletResponse response, HttpServletRequest request) throws IOException {
+        //赞未写验证用户名和密码是否正确
         //保存到session
         request.getSession().setAttribute("username", username);
         response.sendRedirect("/index");
     }
 
+
+    @RequestMapping("/logout")
+    public void login(HttpServletResponse response, HttpServletRequest request) throws IOException {
+        //清空session
+        request.getSession().removeAttribute("username");
+        response.sendRedirect("/index");
+    }
 }
