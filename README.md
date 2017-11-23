@@ -15,3 +15,5 @@
 
 # 启动程序
 直接运行 SsoSingleApplication.java 文件即可。
+
+然后访问：http://localhost:8080 输入任意用户名即可登录
